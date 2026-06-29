@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 20,
+    "description": "Adds the ability to backport xbow pvp"
+  }
+}

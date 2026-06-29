@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:run_command",
+    "minecraft:check_marker",
+    "minecraft:check_ob_marker"
+  ]
+}

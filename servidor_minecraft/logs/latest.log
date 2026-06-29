@@ -1,0 +1,423 @@
+[10:55:31] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.18.2
+[10:55:31] [main/INFO]: Loading 73 mods:
+	- appleskin 3.0.6+mc1.21
+	- carpet 1.4.147+v240613
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- entityculling 1.8.2
+	- fabric-api 0.102.0+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	   |-- fabric-commands-v0 0.2.66+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
+	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
+	- fabric-language-kotlin 1.13.12+kotlin.2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.4.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.4.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.33.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 7.0.0
+	- iceberg 1.2.7
+	- java 21
+	- lithium 0.15.2+mc1.21.1
+	- minecraft 1.21
+	- modernfix 5.19.1+mc1.21
+	- modifyplayerdata 0.2.2-1.21.1
+	- placeholder-api 2.4.2+1.21
+	- shulkerboxtooltip 5.1.2+1.21
+	- skinlayers3d 1.9.0
+	   |-- transition 1.0.4
+	   \-- trender 1.0.6
+	- voicechat 1.21.1-2.6.20
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   \-- voicechat_api 2.6.20
+	- waveycapes 1.6.2
+[10:55:31] [main/WARN]: Found 1 non-fabric mod:
+	- inventoryhud.forge.26.2-3.4.32.jar
+[10:55:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/UNSTABLES/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[10:55:31] [main/INFO]: Compatibility level set to JAVA_21
+[10:55:31] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[10:55:31] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[10:55:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[10:55:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[10:55:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[10:55:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[10:55:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[10:55:31] [main/INFO]: Loaded configuration file for Lithium: 150 options available, 0 override(s) found
+[10:55:32] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[10:55:32] [main/INFO]: Applying Nashorn fix
+[10:55:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[10:55:36] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[10:55:39] [main/INFO]: Vanilla bootstrap took 5100 milliseconds
+[10:55:39] [main/INFO]: [voicechat] Compatibility version 20
+[10:55:39] [main/INFO]: [voicechat] Loading plugins
+[10:55:39] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[10:55:39] [main/INFO]: [voicechat] Initializing plugins
+[10:55:39] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[10:55:39] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:55:42] [main/INFO]: Loaded 1290 recipes
+[10:55:42] [main/INFO]: Loaded 1399 advancements
+[10:55:42] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.088 ms
+[10:55:42] [Server thread/INFO]: Starting minecraft server version 1.21
+[10:55:42] [Server thread/INFO]: Loading properties
+[10:55:42] [Server thread/INFO]: Default game type: SURVIVAL
+[10:55:42] [Server thread/INFO]: Generating keypair
+[10:55:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:55:42] [Server thread/INFO]: Using epoll channel type
+[10:55:43] [Server thread/INFO]: Preparing level "world"
+[10:55:43] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
+[10:55:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:55:43] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[10:55:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:55:43] [Server thread/INFO]: Time elapsed: 425 ms
+[10:55:43] [Server thread/INFO]: Done (0.714s)! For help, type "help"
+[10:55:43] [Server thread/WARN]: Dedicated server took 13.815 seconds to load
+[10:55:43] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[10:56:28] [User Authenticator #1/INFO]: UUID of player 1kirooo0 is d042e1fa-1bd5-4364-ade1-8adfe0f23091
+[10:56:30] [Server thread/INFO]: 1kirooo0[/10.7.66.135:28788] logged in with entity id 1 at (-176.34841494803337, -43.76074072493576, -2290.436779986692)
+[10:56:30] [Server thread/INFO]: 1kirooo0 joined the game
+[10:56:30] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[10:56:40] [User Authenticator #2/INFO]: UUID of player MarioIntro is b6d68f26-e77c-47f9-b18b-43ee69585511
+[10:56:41] [User Authenticator #3/INFO]: UUID of player elhardyd is 3a3d6082-28ae-457c-9246-819ee8ba9487
+[10:56:41] [Server thread/INFO]: elhardyd[/10.7.66.70:51586] logged in with entity id 2 at (-171.1259193052487, -44.9375, -2280.7391941184023)
+[10:56:41] [Server thread/INFO]: elhardyd joined the game
+[10:56:41] [Server thread/INFO]: [voicechat] Received secret request of elhardyd (20)
+[10:56:41] [Server thread/INFO]: [voicechat] Sent secret to elhardyd
+[10:56:41] [Server thread/INFO]: [ShulkerBoxTooltip] elhardyd: protocol version: 2.0
+[10:56:41] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[10:56:41] [Server thread/INFO]: [ShulkerBoxTooltip] overriding preview provider shulkerboxtooltip:trapped_chest with shulkerboxtooltip:chest for item minecraft:chest
+[10:56:41] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
+[10:56:41] [Server thread/INFO]: Player elhardyd joined with a matching carpet client
+[10:56:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3a3d6082-28ae-457c-9246-819ee8ba9487
+[10:56:41] [Server thread/INFO]: MarioIntro[/10.7.66.160:49470] logged in with entity id 3 at (-177.69999998807907, -44.88744317781015, -2291.699999988079)
+[10:56:41] [Server thread/INFO]: MarioIntro joined the game
+[10:56:42] [Server thread/INFO]: [voicechat] Received secret request of MarioIntro (20)
+[10:56:42] [Server thread/INFO]: [voicechat] Sent secret to MarioIntro
+[10:56:42] [Server thread/WARN]: Player MarioIntro joined with another carpet version: 1.4.177+v250630
+[10:56:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player b6d68f26-e77c-47f9-b18b-43ee69585511
+[10:56:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3a3d6082-28ae-457c-9246-819ee8ba9487
+[10:56:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player elhardyd (3a3d6082-28ae-457c-9246-819ee8ba9487) successfully connected to voice chat
+[10:56:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player b6d68f26-e77c-47f9-b18b-43ee69585511
+[10:56:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player MarioIntro (b6d68f26-e77c-47f9-b18b-43ee69585511) successfully connected to voice chat
+[10:57:13] [Server thread/INFO]: [elhardyd: Set own game mode to Creative Mode]
+[10:57:35] [Server thread/INFO]: [elhardyd: Set own game mode to Survival Mode]
+[10:58:02] [Server thread/INFO]: ParrotX2[local] logged in with entity id 39 at (-126.5, 73.1, -2368.5)
+[10:58:02] [Server thread/INFO]: ParrotX2 joined the game
+[10:58:02] [Server thread/INFO]: SpokeIsHere[local] logged in with entity id 40 at (-126.5, 73.1, -2368.5)
+[10:58:02] [Server thread/INFO]: SpokeIsHere joined the game
+[10:58:08] [Server thread/INFO]: Wemmbu[local] logged in with entity id 54 at (-126.5, 73.1, -2368.5)
+[10:58:08] [Server thread/INFO]: Wemmbu joined the game
+[10:58:16] [Server thread/INFO]: ParrotX2 lost connection: Killed
+[10:58:16] [Server thread/INFO]: ParrotX2 left the game
+[10:58:16] [Server thread/INFO]: [voicechat] Disconnecting client ParrotX2
+[10:58:47] [Server thread/INFO]: LettuceK[local] logged in with entity id 90 at (-265.53, 73.0, -2368.9)
+[10:58:47] [Server thread/INFO]: LettuceK joined the game
+[10:58:47] [Server thread/INFO]: SargeLAW[local] logged in with entity id 91 at (-265.53, 73.0, -2368.9)
+[10:58:47] [Server thread/INFO]: SargeLAW joined the game
+[10:58:47] [Server thread/INFO]: Purpled[local] logged in with entity id 92 at (-265.53, 73.0, -2368.9)
+[10:58:47] [Server thread/INFO]: Purpled joined the game
+[10:58:47] [Server thread/INFO]: TheG0DofWar[local] logged in with entity id 93 at (-265.53, 73.0, -2368.9)
+[10:58:47] [Server thread/INFO]: TheG0DofWar joined the game
+[10:58:47] [Server thread/INFO]: Leow0ok[local] logged in with entity id 94 at (-265.53, 73.0, -2368.9)
+[10:58:47] [Server thread/INFO]: Leow0ok joined the game
+[10:58:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19235ms or 384 ticks behind
+[10:58:47] [Server thread/WARN]: elhardyd moved too quickly! -10.166778038102365,-0.319085002303126,0.49556627335778103
+[10:58:47] [Server thread/WARN]: 1kirooo0 moved too quickly! -16.034869968530643,5.37542792301096,3.9652598532120464
+[10:58:47] [Server thread/INFO]: Kealoha03[local] logged in with entity id 97 at (-265.53, 73.0, -2368.9)
+[10:58:47] [Server thread/INFO]: Kealoha03 joined the game
+[10:58:47] [Server thread/INFO]: minik7k[local] logged in with entity id 98 at (-265.53, 73.0, -2368.9)
+[10:58:47] [Server thread/INFO]: minik7k joined the game
+[10:58:47] [Server thread/INFO]: _Tsubasa_[local] logged in with entity id 99 at (-265.53, 73.0, -2368.9)
+[10:58:47] [Server thread/INFO]: _Tsubasa_ joined the game
+[10:58:47] [Server thread/INFO]: 12mn42gn1[local] logged in with entity id 100 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: 12mn42gn1 joined the game
+[10:58:48] [Server thread/INFO]: mahpiya2125[local] logged in with entity id 101 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: mahpiya2125 joined the game
+[10:58:48] [Server thread/INFO]: xxrutendoxx[local] logged in with entity id 102 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: xxrutendoxx joined the game
+[10:58:48] [Server thread/INFO]: boitumelo1d2[local] logged in with entity id 103 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: boitumelo1d2 joined the game
+[10:58:48] [Server thread/INFO]: PearitX2[local] logged in with entity id 104 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: PearitX2 joined the game
+[10:58:48] [Server thread/INFO]: jasvinder2024_[local] logged in with entity id 105 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: jasvinder2024_ joined the game
+[10:58:48] [Server thread/INFO]: _thandolwethu_1[local] logged in with entity id 106 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: _thandolwethu_1 joined the game
+[10:58:48] [Server thread/INFO]: onalerona191[local] logged in with entity id 107 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: onalerona191 joined the game
+[10:58:48] [Server thread/INFO]: _Manaia[local] logged in with entity id 109 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: _Manaia joined the game
+[10:58:48] [Server thread/INFO]: thandolwethu104[local] logged in with entity id 110 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: thandolwethu104 joined the game
+[10:58:48] [Server thread/INFO]: alexandrina832[local] logged in with entity id 111 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: alexandrina832 joined the game
+[10:58:48] [Server thread/INFO]: josokamila12[local] logged in with entity id 112 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: josokamila12 joined the game
+[10:58:48] [Server thread/INFO]: xxacheloios__[local] logged in with entity id 113 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: xxacheloios__ joined the game
+[10:58:48] [Server thread/INFO]: roshanplayz11[local] logged in with entity id 114 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: roshanplayz11 joined the game
+[10:58:48] [Server thread/INFO]: yefimgusti1[local] logged in with entity id 115 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: yefimgusti1 joined the game
+[10:58:48] [Server thread/INFO]: terpsichore84[local] logged in with entity id 116 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: terpsichore84 joined the game
+[10:58:48] [Server thread/INFO]: amar_deep[local] logged in with entity id 117 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: amar_deep joined the game
+[10:58:48] [Server thread/INFO]: demosthenes2012[local] logged in with entity id 118 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: demosthenes2012 joined the game
+[10:58:48] [Server thread/INFO]: paraskeva2324[local] logged in with entity id 119 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: paraskeva2324 joined the game
+[10:58:48] [Server thread/INFO]: UnstablePlayer8[local] logged in with entity id 120 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: UnstablePlayer8 joined the game
+[10:58:48] [Server thread/INFO]: vojislava_xx12[local] logged in with entity id 121 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: vojislava_xx12 joined the game
+[10:58:48] [Server thread/INFO]: mildanazir[local] logged in with entity id 122 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: mildanazir joined the game
+[10:58:48] [Server thread/INFO]: tiannejess_1[local] logged in with entity id 123 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: tiannejess_1 joined the game
+[10:58:48] [Server thread/INFO]: harshadmilo[local] logged in with entity id 124 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: harshadmilo joined the game
+[10:58:48] [Server thread/INFO]: nomthandazo2[local] logged in with entity id 125 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: nomthandazo2 joined the game
+[10:58:48] [Server thread/INFO]: rhiannajalo[local] logged in with entity id 126 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: rhiannajalo joined the game
+[10:58:48] [Server thread/INFO]: xxzakharxx[local] logged in with entity id 127 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: xxzakharxx joined the game
+[10:58:48] [Server thread/INFO]: bidelia5le[local] logged in with entity id 128 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: bidelia5le joined the game
+[10:58:48] [Server thread/INFO]: nnatalija34[local] logged in with entity id 130 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: nnatalija34 joined the game
+[10:58:48] [Server thread/INFO]: altynay06[local] logged in with entity id 131 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: altynay06 joined the game
+[10:58:48] [Server thread/INFO]: deanthebean9[local] logged in with entity id 132 at (-265.53, 73.0, -2368.9)
+[10:58:48] [Server thread/INFO]: deanthebean9 joined the game
+[10:58:49] [Server thread/INFO]: _goanasce_[local] logged in with entity id 133 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: _goanasce_ joined the game
+[10:58:49] [Server thread/INFO]: taliesin23[local] logged in with entity id 134 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: taliesin23 joined the game
+[10:58:49] [Server thread/INFO]: reinhold32[local] logged in with entity id 135 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: reinhold32 joined the game
+[10:58:49] [Server thread/INFO]: ermias_nza2[local] logged in with entity id 136 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: ermias_nza2 joined the game
+[10:58:49] [Server thread/INFO]: jaci0san5[local] logged in with entity id 137 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: jaci0san5 joined the game
+[10:58:49] [Server thread/INFO]: petroniusw1[local] logged in with entity id 138 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: petroniusw1 joined the game
+[10:58:49] [Server thread/INFO]: yevfimiy2019[local] logged in with entity id 139 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: yevfimiy2019 joined the game
+[10:58:49] [Server thread/INFO]: aandronikaa[local] logged in with entity id 140 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: aandronikaa joined the game
+[10:58:49] [Server thread/INFO]: juventin_12[local] logged in with entity id 141 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: juventin_12 joined the game
+[10:58:49] [Server thread/INFO]: polydorus23[local] logged in with entity id 142 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: polydorus23 joined the game
+[10:58:49] [Server thread/INFO]: joakim_5[local] logged in with entity id 143 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: joakim_5 joined the game
+[10:58:49] [Server thread/INFO]: rosario00[local] logged in with entity id 144 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: rosario00 joined the game
+[10:58:49] [Server thread/INFO]: iseultrosa[local] logged in with entity id 145 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: iseultrosa joined the game
+[10:58:49] [Server thread/INFO]: nithinyo2[local] logged in with entity id 146 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: nithinyo2 joined the game
+[10:58:49] [Server thread/INFO]: krastyu132[local] logged in with entity id 147 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: krastyu132 joined the game
+[10:58:49] [Server thread/INFO]: _zulfiya1654[local] logged in with entity id 148 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: _zulfiya1654 joined the game
+[10:58:49] [Server thread/INFO]: constancio_[local] logged in with entity id 149 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: constancio_ joined the game
+[10:58:49] [Server thread/INFO]: _ulrikke[local] logged in with entity id 150 at (-265.53, 73.0, -2368.9)
+[10:58:49] [Server thread/INFO]: _ulrikke joined the game
+[10:59:00] [Server thread/INFO]: SargeLAW was slain by 1kirooo0
+[10:59:00] [Server thread/INFO]: SargeLAW lost connection: SargeLAW died
+[10:59:00] [Server thread/INFO]: SargeLAW left the game
+[10:59:00] [Server thread/INFO]: [voicechat] Disconnecting client SargeLAW
+[10:59:50] [Server thread/INFO]: SpokeIsHere was slain by LettuceK
+[10:59:50] [Server thread/INFO]: SpokeIsHere lost connection: SpokeIsHere died
+[10:59:50] [Server thread/INFO]: SpokeIsHere left the game
+[10:59:50] [Server thread/INFO]: [voicechat] Disconnecting client SpokeIsHere
+[11:00:06] [Server thread/INFO]: _thandolwethu_1 was slain by Wemmbu using [Gambit]
+[11:00:06] [Server thread/INFO]: _thandolwethu_1 lost connection: _thandolwethu_1 died
+[11:00:06] [Server thread/INFO]: _thandolwethu_1 left the game
+[11:00:06] [Server thread/INFO]: [voicechat] Disconnecting client _thandolwethu_1
+[11:00:12] [Server thread/INFO]: jaci0san5 was slain by 1kirooo0
+[11:00:12] [Server thread/INFO]: jaci0san5 lost connection: jaci0san5 died
+[11:00:12] [Server thread/INFO]: jaci0san5 left the game
+[11:00:12] [Server thread/INFO]: [voicechat] Disconnecting client jaci0san5
+[11:00:17] [Server thread/INFO]: UnstablePlayer8 was slain by Wemmbu using [Gambit]
+[11:00:17] [Server thread/INFO]: UnstablePlayer8 lost connection: UnstablePlayer8 died
+[11:00:17] [Server thread/INFO]: UnstablePlayer8 left the game
+[11:00:17] [Server thread/INFO]: [voicechat] Disconnecting client UnstablePlayer8
+[11:00:21] [Server thread/INFO]: onalerona191 was slain by 1kirooo0
+[11:00:21] [Server thread/INFO]: onalerona191 lost connection: onalerona191 died
+[11:00:21] [Server thread/INFO]: onalerona191 left the game
+[11:00:21] [Server thread/INFO]: [voicechat] Disconnecting client onalerona191
+[11:00:34] [Server thread/INFO]: harshadmilo was slain by LettuceK
+[11:00:34] [Server thread/INFO]: harshadmilo lost connection: harshadmilo died
+[11:00:34] [Server thread/INFO]: harshadmilo left the game
+[11:00:34] [Server thread/INFO]: [voicechat] Disconnecting client harshadmilo
+[11:00:36] [Server thread/INFO]: SargeLAW[local] logged in with entity id 456 at (-265.53, 73.0, -2368.9)
+[11:00:36] [Server thread/INFO]: SargeLAW joined the game
+[11:00:37] [Server thread/INFO]: _thandolwethu_1[local] logged in with entity id 461 at (-265.53, 73.0, -2368.9)
+[11:00:37] [Server thread/INFO]: _thandolwethu_1 joined the game
+[11:00:37] [Server thread/INFO]: onalerona191[local] logged in with entity id 462 at (-265.53, 73.0, -2368.9)
+[11:00:37] [Server thread/INFO]: onalerona191 joined the game
+[11:00:37] [Server thread/INFO]: UnstablePlayer8[local] logged in with entity id 463 at (-265.53, 73.0, -2368.9)
+[11:00:37] [Server thread/INFO]: UnstablePlayer8 joined the game
+[11:00:37] [Server thread/INFO]: harshadmilo[local] logged in with entity id 464 at (-265.53, 73.0, -2368.9)
+[11:00:37] [Server thread/INFO]: harshadmilo joined the game
+[11:00:37] [Server thread/INFO]: jaci0san5[local] logged in with entity id 465 at (-265.53, 73.0, -2368.9)
+[11:00:37] [Server thread/INFO]: jaci0san5 joined the game
+[11:02:05] [Server thread/INFO]: nomthandazo2 was slain by Wemmbu using [Gambit]
+[11:02:05] [Server thread/INFO]: nomthandazo2 lost connection: nomthandazo2 died
+[11:02:05] [Server thread/INFO]: nomthandazo2 left the game
+[11:02:05] [Server thread/INFO]: [voicechat] Disconnecting client nomthandazo2
+[11:02:12] [Server thread/INFO]: thandolwethu104 was slain by Wemmbu using [Gambit]
+[11:02:12] [Server thread/INFO]: thandolwethu104 lost connection: thandolwethu104 died
+[11:02:12] [Server thread/INFO]: thandolwethu104 left the game
+[11:02:12] [Server thread/INFO]: [voicechat] Disconnecting client thandolwethu104
+[11:02:18] [Server thread/INFO]: aandronikaa was slain by Wemmbu using [Gambit]
+[11:02:18] [Server thread/INFO]: aandronikaa lost connection: aandronikaa died
+[11:02:18] [Server thread/INFO]: aandronikaa left the game
+[11:02:18] [Server thread/INFO]: [voicechat] Disconnecting client aandronikaa
+[11:02:25] [Server thread/INFO]: taliesin23 was slain by MarioIntro
+[11:02:25] [Server thread/INFO]: taliesin23 lost connection: taliesin23 died
+[11:02:25] [Server thread/INFO]: taliesin23 left the game
+[11:02:25] [Server thread/INFO]: [voicechat] Disconnecting client taliesin23
+[11:02:57] [Server thread/INFO]: krastyu132 was slain by MarioIntro
+[11:02:57] [Server thread/INFO]: krastyu132 lost connection: krastyu132 died
+[11:02:57] [Server thread/INFO]: krastyu132 left the game
+[11:02:57] [Server thread/INFO]: [voicechat] Disconnecting client krastyu132
+[11:03:26] [Server thread/INFO]: harshadmilo was slain by elhardyd
+[11:03:26] [Server thread/INFO]: harshadmilo lost connection: harshadmilo died
+[11:03:26] [Server thread/INFO]: harshadmilo left the game
+[11:03:26] [Server thread/INFO]: [voicechat] Disconnecting client harshadmilo
+[11:03:28] [Server thread/INFO]: nnatalija34 was slain by 1kirooo0
+[11:03:28] [Server thread/INFO]: nnatalija34 lost connection: nnatalija34 died
+[11:03:28] [Server thread/INFO]: nnatalija34 left the game
+[11:03:28] [Server thread/INFO]: [voicechat] Disconnecting client nnatalija34
+[11:03:29] [Server thread/INFO]: ermias_nza2 was slain by Wemmbu using [Gambit]
+[11:03:29] [Server thread/INFO]: ermias_nza2 lost connection: ermias_nza2 died
+[11:03:29] [Server thread/INFO]: ermias_nza2 left the game
+[11:03:29] [Server thread/INFO]: [voicechat] Disconnecting client ermias_nza2
+[11:04:00] [Server thread/INFO]: tiannejess_1 was slain by Wemmbu using [Gambit]
+[11:04:00] [Server thread/INFO]: tiannejess_1 lost connection: tiannejess_1 died
+[11:04:00] [Server thread/INFO]: tiannejess_1 left the game
+[11:04:00] [Server thread/INFO]: [voicechat] Disconnecting client tiannejess_1
+[11:04:02] [Server thread/INFO]: UnstablePlayer8 blew up
+[11:04:02] [Server thread/INFO]: UnstablePlayer8 lost connection: UnstablePlayer8 died
+[11:04:02] [Server thread/INFO]: UnstablePlayer8 left the game
+[11:04:02] [Server thread/INFO]: [voicechat] Disconnecting client UnstablePlayer8
+[11:04:05] [Server thread/INFO]: vojislava_xx12 was doomed to fall
+[11:04:05] [Server thread/INFO]: vojislava_xx12 lost connection: vojislava_xx12 died
+[11:04:05] [Server thread/INFO]: vojislava_xx12 left the game
+[11:04:05] [Server thread/INFO]: [voicechat] Disconnecting client vojislava_xx12
+[11:04:05] [Server thread/INFO]: josokamila12 was doomed to fall
+[11:04:05] [Server thread/INFO]: josokamila12 lost connection: josokamila12 died
+[11:04:05] [Server thread/INFO]: josokamila12 left the game
+[11:04:05] [Server thread/INFO]: [voicechat] Disconnecting client josokamila12
+[11:04:05] [Server thread/INFO]: xxzakharxx was slain by Wemmbu using [Gambit]
+[11:04:05] [Server thread/INFO]: xxzakharxx lost connection: xxzakharxx died
+[11:04:05] [Server thread/INFO]: xxzakharxx left the game
+[11:04:05] [Server thread/INFO]: [voicechat] Disconnecting client xxzakharxx
+[11:04:05] [Server thread/INFO]: Kealoha03 was doomed to fall
+[11:04:05] [Server thread/INFO]: Kealoha03 lost connection: Kealoha03 died
+[11:04:05] [Server thread/INFO]: Kealoha03 left the game
+[11:04:05] [Server thread/INFO]: [voicechat] Disconnecting client Kealoha03
+[11:04:12] [Server thread/INFO]: mahpiya2125 was slain by Wemmbu using [Gambit]
+[11:04:12] [Server thread/INFO]: mahpiya2125 lost connection: mahpiya2125 died
+[11:04:12] [Server thread/INFO]: mahpiya2125 left the game
+[11:04:12] [Server thread/INFO]: [voicechat] Disconnecting client mahpiya2125
+[11:04:15] [Server thread/INFO]: minik7k was doomed to fall
+[11:04:15] [Server thread/INFO]: minik7k lost connection: minik7k died
+[11:04:15] [Server thread/INFO]: minik7k left the game
+[11:04:15] [Server thread/INFO]: [voicechat] Disconnecting client minik7k
+[11:04:23] [Server thread/INFO]: _Manaia was slain by Wemmbu using [Gambit]
+[11:04:23] [Server thread/INFO]: _Manaia lost connection: _Manaia died
+[11:04:23] [Server thread/INFO]: _Manaia left the game
+[11:04:23] [Server thread/INFO]: [voicechat] Disconnecting client _Manaia
+[11:04:41] [Server thread/INFO]: yevfimiy2019 was doomed to fall by Wemmbu
+[11:04:41] [Server thread/INFO]: yevfimiy2019 lost connection: yevfimiy2019 died
+[11:04:41] [Server thread/INFO]: yevfimiy2019 left the game
+[11:04:41] [Server thread/INFO]: [voicechat] Disconnecting client yevfimiy2019
+[11:04:42] [Server thread/INFO]: petroniusw1 was doomed to fall
+[11:04:42] [Server thread/INFO]: petroniusw1 lost connection: petroniusw1 died
+[11:04:42] [Server thread/INFO]: petroniusw1 left the game
+[11:04:42] [Server thread/INFO]: [voicechat] Disconnecting client petroniusw1
+[11:05:10] [Server thread/INFO]: LettuceK was slain by Wemmbu using [Gambit]
+[11:05:10] [Server thread/INFO]: LettuceK lost connection: LettuceK died
+[11:05:10] [Server thread/INFO]: LettuceK left the game
+[11:05:10] [Server thread/INFO]: [voicechat] Disconnecting client LettuceK
+[11:05:24] [Server thread/INFO]: polydorus23 was slain by MarioIntro
+[11:05:24] [Server thread/INFO]: polydorus23 lost connection: polydorus23 died
+[11:05:24] [Server thread/INFO]: polydorus23 left the game
+[11:05:24] [Server thread/INFO]: [voicechat] Disconnecting client polydorus23
+[11:05:25] [Server thread/INFO]: _Tsubasa_ was slain by Wemmbu using [Gambit]
+[11:05:25] [Server thread/INFO]: _Tsubasa_ lost connection: _Tsubasa_ died
+[11:05:25] [Server thread/INFO]: _Tsubasa_ left the game
+[11:05:25] [Server thread/INFO]: [voicechat] Disconnecting client _Tsubasa_
+[11:05:26] [Server thread/INFO]: rosario00 was slain by MarioIntro
+[11:05:26] [Server thread/INFO]: rosario00 lost connection: rosario00 died
+[11:05:26] [Server thread/INFO]: rosario00 left the game
+[11:05:26] [Server thread/INFO]: [voicechat] Disconnecting client rosario00
+[11:05:31] [Server thread/INFO]: xxacheloios__ was slain by Wemmbu using [Gambit]
+[11:05:31] [Server thread/INFO]: xxacheloios__ lost connection: xxacheloios__ died
+[11:05:31] [Server thread/INFO]: xxacheloios__ left the game
+[11:05:31] [Server thread/INFO]: [voicechat] Disconnecting client xxacheloios__
+[11:05:31] [Server thread/INFO]: amar_deep was slain by MarioIntro
+[11:05:32] [Server thread/INFO]: amar_deep lost connection: amar_deep died
+[11:05:32] [Server thread/INFO]: amar_deep left the game
+[11:05:32] [Server thread/INFO]: [voicechat] Disconnecting client amar_deep

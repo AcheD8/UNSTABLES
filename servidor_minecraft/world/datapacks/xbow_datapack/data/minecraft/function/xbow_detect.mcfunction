@@ -1,0 +1,136 @@
+execute at @e[type=minecraft:arrow] if block ~-2 ~-1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~-1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~-1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~-1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~-1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~-1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~-1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~-1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~-1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~-1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~-1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~-1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~-1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~-1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~-1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~-1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~-1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~-1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~-1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~-1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~-1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~-1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~-1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~-1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~-1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~-1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~-1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~-1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~-1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~-1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~-1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~-1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~-1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~-1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~-1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~-1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+
+
+
+
+
+
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~ ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~ ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~ ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~ ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~ ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~ ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~ ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~ ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~ ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~ ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~ ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~ ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~ ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~ ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~ ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~ ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~ ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~ ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~ ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~ ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~ ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~ ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~ ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~ ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~ ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~ ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~ ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~ ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~ ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~ ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~ ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~ ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~ ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~ ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~ ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~ ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+
+
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~1 ~-2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~1 ~-1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~1 ~0 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~1 ~1 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~1 ~2 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
+execute at @e[type=minecraft:arrow] if block ~-2 ~1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~-1 ~1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~0 ~1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~1 ~1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~2 ~1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+execute at @e[type=minecraft:arrow] if block ~3 ~1 ~3 minecraft:fire run data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Fire set value 160
+
